@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        #board .row div { width: 10px; height: 10px; border: 1px solid black; float: left; }
+        #board .row { height: 10px; clear: both; }
+        #board .row div.alive { background-color: black; }
+    </style>
+</head>
+<body>
+  <div id="board"></div>
+    <button onclick="startGame()">Start joc</button>
+    <button onclick="stopGame()">Stop joc</button>
+    <button onclick="clearBoard()">Clear</button>
+<button onclick="random()">Random</button>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
